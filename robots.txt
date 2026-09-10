@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sunqiming-CAS.github.io/sitemap.xml
