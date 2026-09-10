@@ -40,7 +40,7 @@
     {"@type": "Organization", "name": "佛山库斯实业集团", "role": "特聘讲师"}
   ],
   "url": "",
-  "image": ""
+  "image": "https://sunqiming-CAS.github.io/assets/sunqiming.jpg"
 }
 </script>
 <style>
@@ -121,12 +121,10 @@
   /* ===== 关于我 ===== */
   .about-grid { display:grid; grid-template-columns:330px 1fr; gap:36px; align-items:start; }
   .avatar-box {
-    background:#eef1f6; border:1px dashed #c9d3e0; border-radius:12px;
-    display:flex; flex-direction:column; align-items:center; justify-content:center;
-    min-height:400px; padding:24px; text-align:center; color:#8a97ab;
+    background:#eef1f6; border-radius:12px; overflow:hidden;
+    min-height:400px;
   }
-  .avatar-box .ph-ico { width:64px; height:64px; margin-bottom:12px; opacity:.55; }
-  .avatar-box p { font-size:13px; line-height:1.6; }
+  .avatar-box img { width:100%; height:100%; object-fit:cover; display:block; }
   .about-copy h3 { font-size:20px; color:#14284b; margin-bottom:12px; }
   .about-copy p { font-size:15px; color:#4a5a6f; margin-bottom:13px; }
   .about-copy .hl { color:#1c3a6e; font-weight:700; }
@@ -275,10 +273,7 @@
   <div class="wrap">
     <div class="about-grid">
       <div class="avatar-box">
-        <svg class="ph-ico" viewBox="0 0 24 24" fill="none" stroke="#8a97ab" stroke-width="1.4">
-          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/>
-        </svg>
-        <p>个人照片占位<br>（提供照片后替换）</p>
+        <img src="assets/sunqiming.jpg" alt="孙启明">
       </div>
       <div class="about-copy">
         <div class="sec-head" style="margin-bottom:14px;">
@@ -533,7 +528,7 @@
         </div>
         <div class="contact-chip">
           <span class="lbl">微信</span>
-          <span class="val">待补充</span>
+          <span class="val">MingMing__JiaYou</span>
         </div>
       </div>
     </div>
